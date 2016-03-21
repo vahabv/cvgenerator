@@ -12,11 +12,11 @@
 <div class="verticalAlign"></div>
 <!-- Header bar start -->
 		<div class="container">
-			<div class="logo pull-left">
-				<i class="fa fa-file-text-o"></i><span> <b>RESUME</b>CREATOR</span>
+			<div class="logo pull-left col-md-4">
+				<span><i class="fa fa-file-text-o"></i> <b>RESUME</b>CREATOR</span>
 			</div>
-			<div class="pull-right">
-				<button class="login">Login</button>
+			<div class="pull-right col-md-2">
+				<button class="login col-md-12">Login</button>
 			</div>
 		</div>
 <!-- Header Bar end -->
@@ -36,13 +36,13 @@
 </div>
 <div class="footerWrapper col-md-12">
 	<div class="container">
-		<div class="col-md-2 col-xs-12 counter">
+		<div class="col-md-2 counter col-xs-6 col-sm-6">
 		<span><b>200467</b><br><span>Resumes Created</span></span>
 		</div>
-		<div class="col-md-2 col-xs-12 counter">
+		<div class="col-md-2 col-xs-6 col-sm-6 counter">
 		<span><b>320467</b><br><span>Downloads</span></span>
 		</div>
-		<div class="col-md-5 col-xs-12">
+		<div class="col-md-5 col-xs-12 col-sm-12">
 			<ul>
 				<li>Azerbaycanca</li>
 				<li>English</li>
@@ -53,7 +53,7 @@
 				<li>Portugales</li>
 			</ul>
 		</div>
-		<div class="col-md-3 copyright">
+		<div class="col-md-3 col-xs-12 col-sm-12 copyright">
 		<span>Resume Creator © 2016. All rights reserved</span>
 		</div>
 	</div>
