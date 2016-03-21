@@ -12,11 +12,11 @@
 <div class="verticalAlign"></div>
 <!-- Header bar start -->
 		<div class="container">
-			<div class="logo pull-left col-md-4">
-				<span><i class="fa fa-file-text-o"></i> <b>RESUME</b>CREATOR</span>
+			<div class="logo pull-left col-md-4 col-xs-4 col-sm-4">
+				<span><i class="fa fa-file-text-o"></i> <b> RESUME</b>CREATOR</span>
 			</div>
-			<div class="pull-right col-md-2">
-				<button class="login col-md-12">Login</button>
+			<div class="pull-right col-md-2 col-xs-2 col-sm-2">
+				<button class="login col-md-12" id="login">Login</button>
 			</div>
 		</div>
 <!-- Header Bar end -->
@@ -58,9 +58,24 @@
 		</div>
 	</div>
 </div>
+<!-- Login Form -->
+<div class="loginForm">
+  <div class="loginWrapper">
+  	<div class="loginBox col-md-4 col-xs-10 col-sm-10">
+  		<p>Login</p>
+  	</div>
+  </div>
+</div>
+<!-- Login form end -->
+
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
-	
+ $("#login").click(function(){
+ 	$(".loginForm").toggle();
+ });
+ $(".loginForm").click(function(){
+ 	$(".loginForm").toggle();
+ });
 </script>
 </body>
 </html>
