@@ -102,14 +102,43 @@ background-position: center;
 	align-items: center;
 }
 .loginBox{
-	height: 350px;
+	height: 400px;
 	background-color: white;
 	vertical-align: middle;
-	text-transform: uppercase;
 	text-align: center;
 	padding: 50px;
 	font-face: Roboto;
 	font-size: 20px;
 	font-weight: bold;
 	color: gray;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.social{
+	height: 60px;
+	background-color: #39579a;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+	font-size: 14px;
+	list-style-type: none;
+}
+.social:nth-child(2){
+	background-color: #50aaf0;
+}
+.social:nth-child(3){
+	background-color: #eb4b36;
+}
+.social:nth-child(4){
+	background-color: #2274b6;
+}
+.social i{
+	line-height: 60px;
+	position: absolute;
+	font-size: 25px;
+	left: 10%;
 }

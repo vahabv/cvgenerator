@@ -62,7 +62,15 @@
 <div class="loginForm">
   <div class="loginWrapper">
   	<div class="loginBox col-md-4 col-xs-10 col-sm-10">
-  		<p>Login</p>
+  		<p>LOGIN</p>
+  		<div class="container col-md-12">
+	  		<ul>
+	  			<li class="social"><i class="fa fa-facebook"></i>Login with Facebook</li>
+	  			<li class="social"><i class="fa fa-google-plus"></i>Login with Google+</li>
+	  			<li class="social"><i class="fa fa-twitter"></i>Login with Twitter</li>
+	  			<li class="social"><i class="fa fa-linkedin"></i>Login with Linkedin</li>
+	  		</ul>
+  		</div>
   	</div>
   </div>
 </div>
