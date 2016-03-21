@@ -1,0 +1,10 @@
+.mainWrapper {
+height: 600px;
+background: 
+    linear-gradient(
+      rgba(10, 188, 119, 0.85), 
+      rgba(10, 188, 119, 0.85)
+    ),
+    url(../images/mainbackground.jpg);
+background-size: cover;
+}

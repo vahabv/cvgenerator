@@ -8,6 +8,9 @@
  	 <script src="jquery-2.2.1.js"></script>
 </head>
 <body>
+<div class="mainWrapper col-md-12">
+</div>
+
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	
