@@ -25,30 +25,33 @@
 			<div class="middleSection">
 				<span>Create Beautiful, Professional Resumes Free</span>
 				<div class="verticalAlign"></div>
-				<div class="createStart">Lets Create Resume</div>
+				<div class="verticalAlign"></div>
+				<div class="createStart col-md-4 col-md-offset-4">Lets Create Resume</div>
 			</div>
 		</div>
 <!-- Middle button, text end -->
+<div class="verticalAlign"></div>
+<div class="verticalAlign"></div>
+<img src="images/resumes.png" class="img-responsive center-block resumes pull-bottom">		
 </div>
 <div class="footerWrapper col-md-12">
 	<div class="container">
-		<div class="col-md-2 counter">
+		<div class="col-md-2 col-xs-12 counter">
 		<span><b>200467</b><br><span>Resumes Created</span></span>
 		</div>
-		<div class="col-md-2 counter">
+		<div class="col-md-2 col-xs-12 counter">
 		<span><b>320467</b><br><span>Downloads</span></span>
 		</div>
-		<div class="col-md-1"></div>
-		<div class="col-md-4">
-		<ul>
-			<li>Azerbaycanca</li>
-			<li>English</li>
-			<li>Deutshc</li>
-			<li>Espanol</li>
-			<li>Italiano</li>
-			<li>Turkce</li>
-			<li>Portugales</li>
-		</ul>
+		<div class="col-md-5 col-xs-12">
+			<ul>
+				<li>Azerbaycanca</li>
+				<li>English</li>
+				<li>Deutshc</li>
+				<li>Espanol</li>
+				<li>Italiano</li>
+				<li>Turkce</li>
+				<li>Portugales</li>
+			</ul>
 		</div>
 		<div class="col-md-3 copyright">
 		<span>Resume Creator © 2016. All rights reserved</span>
