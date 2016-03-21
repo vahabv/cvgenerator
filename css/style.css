@@ -1,5 +1,5 @@
 .mainWrapper {
-height: 600px;
+height: 650px;
 background: 
     linear-gradient(
       rgba(10, 188, 119, 0.85), 
@@ -7,4 +7,75 @@ background:
     ),
     url(../images/mainbackground.jpg);
 background-size: cover;
+background-position: center;
+}
+.logo{
+	color: white;
+	font-size: 25px;
+	font-face: Roboto;
+	cursor: pointer;
+}
+ .login{
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid white;
+	background-color: transparent;
+	border-radius: 20px;
+	color: white;
+	transition: all .2s ease;
+}
+.login:hover{
+	background-color: white;
+	color: green;
+}
+.verticalAlign{
+	width: 100%;
+	height: 30px;
+}
+.middleSection{
+	margin-top: 90px;
+	color: white;
+	font-face: Roboto;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.createStart{
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #274171;
+	border-radius: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+.footerWrapper{
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: comfortaa;
+	height: 200px;
+	background-color: #f9f9f9;
+}
+.footerWrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footerWrapper li{
+	padding: 5px 10px;
+    display: inline-block;
+}
+.counter{
+	font-size: 30px;
+}
+.counter span span{
+	font-size: 15px;
+	color: gray;
+}
+.copyright{
+
 }
