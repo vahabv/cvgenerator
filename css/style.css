@@ -117,6 +117,7 @@ ul{
 	padding: 0;
 }
 .social{
+	width: 100%;
 	height: 60px;
 	background-color: #39579a;
 	margin-top: 10px;
@@ -126,6 +127,8 @@ ul{
 	line-height: 60px;
 	font-size: 14px;
 	list-style-type: none;
+	opacity: 0.9;
+	cursor: pointer;
 }
 .social:nth-child(2){
 	background-color: #50aaf0;
@@ -141,4 +144,57 @@ ul{
 	position: absolute;
 	font-size: 25px;
 	left: 10%;
+}
+.social:hover{
+	opacity: 1;
+}
+/* select.php */
+.navigationBar{
+	padding: 15px 0 15px 0;
+	height: auto;
+	background-color: #0abc77;
+}
+body{
+	background-color: #fafafa;
+}
+.userArea{
+	padding: 15px 10px 15px 10px;
+	width: auto;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #15cb84;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.userArea img{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.selectTemplate{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.selectTemplate p{
+	margin: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-face: Roboto;
+}
+.templates{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.template{
+	margin: 10px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 0 0 30px 0 #cbcbcb;
 }
