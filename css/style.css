@@ -151,7 +151,7 @@ ul{
 /* select.php */
 .navigationBar{
 	padding: 15px 0 15px 0;
-	height: auto;
+	height: 80px;
 	background-color: #0abc77;
 }
 body{
@@ -194,7 +194,24 @@ body{
 }
 .template{
 	margin: 10px;
-	height: 400px;
+	height: 440px;
 	background-color: white;
 	box-shadow: 0 0 30px 0 #cbcbcb;
+}
+.template:hover{
+	box-shadow: 0 0 30px 0 #0abc77;
+}
+#slideDown{
+	margin: 10px;
+	font-size: 20px;
+	color: #0d8355;
+}
+#userMenu{
+	width: 100%;
+	background-color: #15cb84;
+	border-radius: 0 0 20px;
+	height: 200px;
+	position: relative;
+	z-index: 10;
+	display: none;
 }
