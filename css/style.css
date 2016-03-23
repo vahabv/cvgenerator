@@ -18,11 +18,12 @@ background-position: center;
 }
 .logo{
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	font-face: Roboto;
 	cursor: pointer;
 }
  .login{
+ 	width: 120px;
 	height: 40px;
 	line-height: 35px;
 	text-align: center;
@@ -36,6 +37,18 @@ background-position: center;
 	background-color: white;
 	color: green;
 }
+.navigationBar{
+	background-color: #0abc77;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 0 10px 0; 
+}
+.navigationBarindex{
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 0 10px 0; 
+}
 .verticalAlign{
 	width: 100%;
 	height: 30px;
@@ -47,6 +60,7 @@ background-position: center;
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
+	position: relative;
 }
 .resumes{
  	height: 350px;
@@ -149,69 +163,78 @@ ul{
 	opacity: 1;
 }
 /* select.php */
-.navigationBar{
-	padding: 15px 0 15px 0;
-	height: 80px;
-	background-color: #0abc77;
-}
 body{
 	background-color: #fafafa;
 }
-.userArea{
-	padding: 15px 10px 15px 10px;
-	width: auto;
-	height: 50px;
-	border-radius: 20px;
-	background-color: #15cb84;
-	line-height: 50px;
-	display: flex;
-	align-items: center;
-	color: white;
-}
-.userArea img{
-	width: 35px;
-	height: 35px;
-	border-radius: 100%;
-	float: left;
-	margin-right: 10px;
-}
-.selectTemplate{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
 .selectTemplate p{
+	text-align: center;
 	margin: 20px;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-face: Roboto;
 }
-.templates{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .template{
-	margin: 10px;
-	height: 440px;
+	padding: 20px;
+	margin-bottom: 20px; 
+	height: 500px;
 	background-color: white;
 	box-shadow: 0 0 30px 0 #cbcbcb;
+	transition: all 0.1s linear;
 }
 .template:hover{
 	box-shadow: 0 0 30px 0 #0abc77;
 }
-#slideDown{
-	margin: 10px;
-	font-size: 20px;
-	color: #0d8355;
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    background-color: #15cb84;
+    border-radius: 20px; 
+    padding: 5px 10px !important;
 }
-#userMenu{
-	width: 100%;
-	background-color: #15cb84;
-	border-radius: 0 0 20px;
-	height: 200px;
-	position: relative;
-	z-index: 10;
-	display: none;
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #19e092;
+    border-radius: 20px; 
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: white;
+    background-color: #15cb84;
+    border-radius: 0px !important; 
+}
+.navbar-nav>li>.dropdown-menu {
+    background-color: #15cb84;
+    border: none;
+    width: 100%;
+}
+.dropdown-menu>li>a {
+    color: white;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:hover:focus {
+	background-color: #0abc77;
+    color: white;
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: white !important;
+    background-color: #15cb84 !important;
+}
+ .login{
+ 	width: 200px;
+}
+.template{
+	height: 350px;
+}
+}
+@media screen and (max-width: 350px) and (min-width: 300px){
+.template{
+height: 300px;
+}
+}
+.userThumb{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-right: 10px;
 }

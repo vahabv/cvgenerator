@@ -9,16 +9,29 @@
 </head>
 <body>
 <div class="mainWrapper col-md-12">
-<div class="verticalAlign"></div>
 <!-- Header bar start -->
-		<div class="container">
-			<div class="logo pull-left col-md-4 col-xs-4 col-sm-4">
-				<span><i class="fa fa-file-text-o"></i> <b> RESUME</b>CREATOR</span>
-			</div>
-			<div class="pull-right col-md-2 col-xs-2 col-sm-2">
-				<button class="login col-md-12" id="login">Login</button>
-			</div>
-		</div>
+<nav class="navbar navbar-default navigationBarindex">
+	<div class="container">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="logo"><i class="fa fa-file-text-o"></i> <b> RESUME</b>CREATOR</span></a>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <button class="login col-md-12" id="login">Login</button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">New Resume</a></li>
+            <li><a href="#">Resumes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 <!-- Header Bar end -->
 <!-- Middle button, text start -->
 		<div class="container">
@@ -34,6 +47,7 @@
 <div class="verticalAlign"></div>
 <img src="images/resumes.png" class="img-responsive center-block resumes pull-bottom">		
 </div>
+  </div>
 <div class="footerWrapper col-md-12">
 	<div class="container">
 		<div class="col-md-2 counter col-xs-6 col-sm-6">
